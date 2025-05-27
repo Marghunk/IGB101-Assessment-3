@@ -9,13 +9,18 @@ public class KodyGameManager : MonoBehaviour
     public int maxPickups = 4;
     public bool levelComplete = false;
     public Text pickupText;
+    public Text doorText;
     public AudioSource[] audioSources;
     public float audioProximity = 5.0f;
+    private int doorsKicked = 0;
 
-
+    public void DoorKicked()
+    {
+        doorsKicked++;
+    }
     private void LevelCompleteCheck()
     {
-        if (currentPickups >= maxPickups)
+        if (currentPickups >= maxPickups && doorsKicked == 4)
             levelComplete = true;
         else
             levelComplete = false;
@@ -31,6 +36,7 @@ public class KodyGameManager : MonoBehaviour
     private void UpdateGUI()
     {
         pickupText.text = "Pickups: " + currentPickups + "/" + maxPickups;
+        doorText.text = "Walls Kicked: " + doorsKicked.ToString() + "/4";
     }
 
     private void PlayAudioSamples()

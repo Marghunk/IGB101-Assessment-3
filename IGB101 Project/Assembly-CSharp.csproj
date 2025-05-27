@@ -67,6 +67,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Liam_door.cs" />
     <Compile Include="Assets\Coen\Scripts\Coen_LevelSwitch.cs" />
+    <Compile Include="Assets\Kody\Scripts\KodyDestroyableWall.cs" />
     <Compile Include="Assets\Scripts\LevelSwitch.cs" />
     <Compile Include="Assets\Coen\Scripts\Coen_SpinnyScript.cs" />
     <Compile Include="Assets\Kody\Scripts\KodyDisplayAnimation.cs" />
@@ -83,7 +84,6 @@
     <Compile Include="Assets\Lucas\Third Person Controller\LucasPlayerMovement.cs" />
     <Compile Include="Assets\Coen\Scripts\ThirdPersonCamera.cs" />
     <Compile Include="Assets\Kody\Scripts\KodyThirdPersonCamera.cs" />
-    <Compile Include="Assets\Kody\Scripts\KodyDoor.cs" />
     <Compile Include="Assets\Scripts\LucasDoorTest.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\LiamLevelSwitch.cs" />

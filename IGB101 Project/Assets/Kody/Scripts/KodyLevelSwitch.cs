@@ -11,7 +11,7 @@ public class KodyLevelSwitch : MonoBehaviour
         gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<KodyGameManager>();
     }
 
-    private void TriggerEnter(Collider otherObject)
+    private void OnTriggerEnter(Collider otherObject)
     {
         if (otherObject.transform.tag == "Player")
         {

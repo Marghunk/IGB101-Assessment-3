@@ -10,14 +10,14 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
-IGB101 Project/Library/
-IGB101 Project/Temp/
-IGB101 Project/Obj/
-IGB101 Project/UserSettings/
-IGB101 Project/Build/
-IGB101 Project/Builds/
-IGB101 Project/Logs/
-IGB101 Project/Library
+liam_unity/Library/
+liam_unity/Temp/
+liam_unity/Obj/
+liam_unity/UserSettings/
+liam_unity/Build/
+liam_unity/Builds/
+liam_unity/Logs/
+liam_unity/Library
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data

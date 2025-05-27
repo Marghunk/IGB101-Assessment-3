@@ -9,14 +9,14 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
-101 A3/Library/
-101 A3/Temp/
-101 A3/Obj/
-101 A3/UserSettings/
-101 A3/Build/
-101 A3/Builds/
-101 A3/Logs/
-101 A3/Library
+IGB101 Project/Library/
+IGB101 Project/Temp/
+IGB101 Project/Obj/
+IGB101 Project/UserSettings/
+IGB101 Project/Build/
+IGB101 Project/Builds/
+IGB101 Project/Logs/
+IGB101 Project/Library
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data

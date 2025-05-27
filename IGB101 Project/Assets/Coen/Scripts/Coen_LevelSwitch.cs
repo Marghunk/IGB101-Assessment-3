@@ -5,9 +5,13 @@ public class Coen_LevelSwitch : MonoBehaviour
 {
     Coen_GameManager gameManager;
     public string nextLevel;
+    public Material m;
+    public Color activated, deactivated;
+
 
     private void Start()
     {
+        m = GetComponent<Renderer>().material;
         gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<Coen_GameManager>();
     }
 

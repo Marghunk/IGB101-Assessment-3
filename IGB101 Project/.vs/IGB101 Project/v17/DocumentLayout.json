@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\cgoet\\Documents\\GitHub\\IGB101-Assessment-3\\IGB101 Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6787F159-69B6-D986-D2E6-659DEE0313F8}|Assembly-CSharp.csproj|c:\\users\\cgoet\\documents\\github\\igb101-assessment-3\\igb101 project\\assets\\coen\\scripts\\coen_levelswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6787F159-69B6-D986-D2E6-659DEE0313F8}|Assembly-CSharp.csproj|solutionrelative:assets\\coen\\scripts\\coen_levelswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6787F159-69B6-D986-D2E6-659DEE0313F8}|Assembly-CSharp.csproj|C:\\Users\\cgoet\\Documents\\GitHub\\IGB101-Assessment-3\\IGB101 Project\\assets\\coen\\scripts\\coen_gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6787F159-69B6-D986-D2E6-659DEE0313F8}|Assembly-CSharp.csproj|solutionrelative:assets\\coen\\scripts\\coen_gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6787F159-69B6-D986-D2E6-659DEE0313F8}|Assembly-CSharp.csproj|c:\\users\\cgoet\\documents\\github\\igb101-assessment-3\\igb101 project\\assets\\coen\\scripts\\pickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6787F159-69B6-D986-D2E6-659DEE0313F8}|Assembly-CSharp.csproj|C:\\Users\\cgoet\\Documents\\GitHub\\IGB101-Assessment-3\\IGB101 Project\\assets\\coen\\scripts\\pickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6787F159-69B6-D986-D2E6-659DEE0313F8}|Assembly-CSharp.csproj|solutionrelative:assets\\coen\\scripts\\pickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cgoet\\Documents\\GitHub\\IGB101-Assessment-3\\IGB101 Project\\Assets\\Coen\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Coen\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6787F159-69B6-D986-D2E6-659DEE0313F8}|Assembly-CSharp.csproj|c:\\users\\cgoet\\documents\\github\\igb101-assessment-3\\igb101 project\\assets\\coen\\scripts\\coen_levelswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6787F159-69B6-D986-D2E6-659DEE0313F8}|Assembly-CSharp.csproj|solutionrelative:assets\\coen\\scripts\\coen_levelswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,12 +27,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Coen_GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\cgoet\\Documents\\GitHub\\IGB101-Assessment-3\\IGB101 Project\\Assets\\Coen\\Scripts\\Coen_GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Coen\\Scripts\\Coen_GameManager.cs",
+              "ToolTip": "C:\\Users\\cgoet\\Documents\\GitHub\\IGB101-Assessment-3\\IGB101 Project\\Assets\\Coen\\Scripts\\Coen_GameManager.cs",
+              "RelativeToolTip": "Assets\\Coen\\Scripts\\Coen_GameManager.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwCYAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T03:09:36.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Coen_LevelSwitch.cs",
               "DocumentMoniker": "C:\\Users\\cgoet\\Documents\\GitHub\\IGB101-Assessment-3\\IGB101 Project\\Assets\\Coen\\Scripts\\Coen_LevelSwitch.cs",
               "RelativeDocumentMoniker": "Assets\\Coen\\Scripts\\Coen_LevelSwitch.cs",
               "ToolTip": "C:\\Users\\cgoet\\Documents\\GitHub\\IGB101-Assessment-3\\IGB101 Project\\Assets\\Coen\\Scripts\\Coen_LevelSwitch.cs",
               "RelativeToolTip": "Assets\\Coen\\Scripts\\Coen_LevelSwitch.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwAgAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T00:53:13.806Z",
               "EditorCaption": ""
@@ -45,21 +58,10 @@
               "RelativeDocumentMoniker": "Assets\\Coen\\Scripts\\Pickup.cs",
               "ToolTip": "C:\\Users\\cgoet\\Documents\\GitHub\\IGB101-Assessment-3\\IGB101 Project\\Assets\\Coen\\Scripts\\Pickup.cs",
               "RelativeToolTip": "Assets\\Coen\\Scripts\\Pickup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T00:51:53.433Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\cgoet\\Documents\\GitHub\\IGB101-Assessment-3\\IGB101 Project\\Assets\\Coen\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Coen\\Scripts\\GameManager.cs",
-              "ToolTip": "C:\\Users\\cgoet\\Documents\\GitHub\\IGB101-Assessment-3\\IGB101 Project\\Assets\\Coen\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Coen\\Scripts\\GameManager.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T00:45:20.826Z"
             }
           ]
         }

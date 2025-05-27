@@ -24,6 +24,8 @@ public class Coen_GameManager : MonoBehaviour
         if (currentPickups >= maxPickups)
         {
             levelComplete = true;
+
+            GameObject.FindAnyObjectByType<Coen_LevelSwitch>().m.color = GameObject.FindAnyObjectByType<Coen_LevelSwitch>().deactivated;
         }
         else
         {
@@ -32,7 +34,15 @@ public class Coen_GameManager : MonoBehaviour
     }
     void UpdateGUI()
     {
-        pickupText.text = "Pickups: " + currentPickups + "/" + maxPickups;
+        if (currentPickups >= maxPickups)
+        {
+            pickupText.text = $"Coins: {currentPickups}/{maxPickups} \b Head to the Exit!";
+        }
+        else
+        {
+            pickupText.text = "Coins: " + currentPickups + "/" + maxPickups;
+        }
+        
     }
 
     void PlayAudioSamples()
@@ -56,6 +66,10 @@ public class Coen_GameManager : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        maxPickups = GameObject.FindObjectsByType<Pickup>(FindObjectsSortMode.None).Length;
+    }
     private void Update()
     {
         LevelCompleteCheck();

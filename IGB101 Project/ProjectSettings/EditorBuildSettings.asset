@@ -17,5 +17,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Lucas/Scenes/IGB101 Assignment 3 Lucas Scheiler.unity
     guid: 812260e36ea7a93458ee6630c48e1aaa
+  - enabled: 1
+    path: Assets/Coen/Scenes/CoensScene.unity
+    guid: 5be3b9d57ad79434a9a0b5d60466aeca
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

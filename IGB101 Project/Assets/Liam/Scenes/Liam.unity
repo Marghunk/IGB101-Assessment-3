@@ -6299,7 +6299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59a70e95cfad21146bdd5716d8b88432, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevel: IGB101 Assignment 3 Lucas Scheiler
+  nextLevel: CoensScene
 --- !u!1 &962443552
 GameObject:
   m_ObjectHideFlags: 0

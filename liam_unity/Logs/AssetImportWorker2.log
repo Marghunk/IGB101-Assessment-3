@@ -1,0 +1,1826 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.43f1 (97272b72f107) revision 9905963'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 15733 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Liam_/My project
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+53268
+-job-worker-count
+10
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/Liam_/My project
+C:/Users/Liam_/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28852]  Target information:
+
+Player connection [28852] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28852] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 10
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 5.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.43f1 (97272b72f107)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Liam_/My project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Arc(TM) Graphics (ID=0x7d55)
+    Vendor:   Intel
+    VRAM:     8968 MB
+    Driver:   32.0.101.5972
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005713 seconds.
+- Loaded All Assemblies, in  0.535 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.407 seconds
+Domain Reload Profiling: 940ms
+	BeginReloadAssembly (209ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (207ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (202ms)
+			TypeCache.Refresh (200ms)
+				TypeCache.ScanAssembly (184ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (408ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (354ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (183ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.119 seconds
+Refreshing native plugins compatible for Editor in 3.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-My project
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.062 seconds
+Domain Reload Profiling: 2175ms
+	BeginReloadAssembly (268ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (732ms)
+		LoadAssemblies (612ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (300ms)
+			TypeCache.Refresh (229ms)
+				TypeCache.ScanAssembly (210ms)
+			BuildScriptInfoCaches (56ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1062ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (756ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (423ms)
+			ProcessInitializeOnLoadMethodAttributes (181ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 5.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 218 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6304 unused Assets / (4.3 MB). Loaded Objects now: 7028.
+Memory consumption went from 180.0 MB to 175.7 MB.
+Total: 41.560500 ms (FindLiveObjects: 2.706800 ms CreateObjectMapping: 2.146600 ms MarkObjects: 31.573100 ms  DeleteObjects: 5.131700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 121277.829872 seconds.
+  path: Assets/Liam/Materials and Textures/Concrete/Materials/Clean_Concrete_GroundAO.mat
+  artifactKey: Guid(38969f0ccad59104fb88fa72838fe24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Materials and Textures/Concrete/Materials/Clean_Concrete_GroundAO.mat using Guid(38969f0ccad59104fb88fa72838fe24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85c4e3b6f5075e091f8eca8df74d6e1b') in 0.8504779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Liam/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01.mat
+  artifactKey: Guid(ab675e6698bde46fd87143fb0d7580cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01.mat using Guid(ab675e6698bde46fd87143fb0d7580cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '799805e392327fbd084c87b312a670bc') in 0.0213556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-11.mat
+  artifactKey: Guid(e218649290d1ee045ab720f9506ae53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-11.mat using Guid(e218649290d1ee045ab720f9506ae53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4db0dc47d94336713b538f61bc3b6004') in 0.0278958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Liam/Third Person Controller/Animator Controller.controller
+  artifactKey: Guid(2c6fb4c218885774fac7be6b8f9383ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Third Person Controller/Animator Controller.controller using Guid(2c6fb4c218885774fac7be6b8f9383ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '609b643012a6a364e52b36da9183d6e0') in 0.0130011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-01.fbx
+  artifactKey: Guid(c8a232c4315f1124082197104feffe9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-01.fbx using Guid(c8a232c4315f1124082197104feffe9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e38fe9ee98e76d3d7b6b0da0765a79b1') in 0.0726596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Corner-Stone-Model-04.mat
+  artifactKey: Guid(9c1fdc88dd11f204e83af10d0d8bf680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Corner-Stone-Model-04.mat using Guid(9c1fdc88dd11f204e83af10d0d8bf680) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbe1a2002acb9a877da55204327f773a') in 0.0185181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Liam/Third Person Controller/Animations/t_pose.fbx
+  artifactKey: Guid(1d553d340c6ed564da93547ec4058847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Third Person Controller/Animations/t_pose.fbx using Guid(1d553d340c6ed564da93547ec4058847) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06db593618813d1a55e9dd7d02a7e083') in 0.1024374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 155
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-03.mat
+  artifactKey: Guid(fa7fadc7b74c7b44b80f5b0dea2d59f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-03.mat using Guid(fa7fadc7b74c7b44b80f5b0dea2d59f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f47b7b2e9400610791c022bb3c25a21') in 0.0262063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Liam/Third Person Controller/Robot Kyle/Materials/Robot_Color.mat
+  artifactKey: Guid(0aa851515cd3747d6b3b3e461199a2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Third Person Controller/Robot Kyle/Materials/Robot_Color.mat using Guid(0aa851515cd3747d6b3b3e461199a2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b06d61001d8853953b6345c0fa9f0a3') in 0.021639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Liam/Third Person Controller/Animations/turn.fbx
+  artifactKey: Guid(fe5a3f78955de764190c2a53523ae0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Third Person Controller/Animations/turn.fbx using Guid(fe5a3f78955de764190c2a53523ae0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a91f4fe1718c8dca43def6883b709661') in 0.2180189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 147
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Liam/Third Person Controller/Animations/waving.fbx
+  artifactKey: Guid(e28c70e8cd566a34aacf6af708cc1824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Third Person Controller/Animations/waving.fbx using Guid(e28c70e8cd566a34aacf6af708cc1824) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abdde77c45dc3f1cb4036377b11ea1f7') in 0.009255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Liam/Materials and Textures/Concrete/Concrete Material.mat
+  artifactKey: Guid(51933bfcabd973e4dae8619d8d986ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Materials and Textures/Concrete/Concrete Material.mat using Guid(51933bfcabd973e4dae8619d8d986ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e3c311cdd8dfd41ca565e588b304f3f') in 0.0340558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-12.mat
+  artifactKey: Guid(14f7e7927be7d8f478a76577b849efe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-12.mat using Guid(14f7e7927be7d8f478a76577b849efe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fb4b8393c558d040cb5474ec0ff2d1c') in 0.0202902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Scripts/Liam_GameManager.cs
+  artifactKey: Guid(c947659bf0528e74095f641c07adaa84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Liam_GameManager.cs using Guid(c947659bf0528e74095f641c07adaa84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2444fc769ba5eb7e51d331b4a78aa29') in 0.001285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-10.mat
+  artifactKey: Guid(84adbdab398f5774c91098d795c84d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-10.mat using Guid(84adbdab398f5774c91098d795c84d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbd31e6ce50b871778e8e40a312d959f') in 0.021823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Liam/Scenes/main_scene.unity
+  artifactKey: Guid(78899d8b6bd9bca459651e86c717bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Scenes/main_scene.unity using Guid(78899d8b6bd9bca459651e86c717bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c305e89631cdcb752edf251901962deb') in 0.0012253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Corner-Stone-Model-04.fbx
+  artifactKey: Guid(cd2ecb50216bef6438267172d464d5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Corner-Stone-Model-04.fbx using Guid(cd2ecb50216bef6438267172d464d5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db493437a80eea9958777eac1e4ac199') in 0.0498694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-01.mat
+  artifactKey: Guid(2a14c57a69e73d74d86c75e7fe903485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-01.mat using Guid(2a14c57a69e73d74d86c75e7fe903485) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '866de3bf4c78a8b5d3bbe872ee23b1db') in 0.022425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-10.fbx
+  artifactKey: Guid(3e5c569b8600c4b438f9d72565bfd43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-10.fbx using Guid(3e5c569b8600c4b438f9d72565bfd43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '171e3ed0299056303efa587421836597') in 0.033576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Liam/Third Person Controller/Animations/idle.fbx
+  artifactKey: Guid(0850654a58f03c7409e5603f174adf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Third Person Controller/Animations/idle.fbx using Guid(0850654a58f03c7409e5603f174adf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eca12cf80bfa8003c13e24ece1b6c52a') in 0.009823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Liam/Third Person Controller/Animations/walking.fbx
+  artifactKey: Guid(c5be887af9f579d4b9f081ed3357aafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Third Person Controller/Animations/walking.fbx using Guid(c5be887af9f579d4b9f081ed3357aafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5f6c3e985e4cae62e900fe09c000530') in 0.0082045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Liam/Third Person Controller/Robot Kyle/Model/Robot Kyle.fbx
+  artifactKey: Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Third Person Controller/Robot Kyle/Model/Robot Kyle.fbx using Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '773dea280fe67b5bba4feeb4c0e3b45c') in 0.0449866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 112
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-11.fbx
+  artifactKey: Guid(1fab21d8bb67e0b459ca60b8a9601342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-11.fbx using Guid(1fab21d8bb67e0b459ca60b8a9601342) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc3866d838664b07cf6bf6c6282ea99d') in 0.0357912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-12.fbx
+  artifactKey: Guid(5c200c38000f07048916f11d852df3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-12.fbx using Guid(5c200c38000f07048916f11d852df3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c7145e31eda82815199163555f2c5d6') in 0.0342012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Liam/Third Person Controller/Animations/running.fbx
+  artifactKey: Guid(77d9df93482067942b5b9eb0ecc4d42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Third Person Controller/Animations/running.fbx using Guid(77d9df93482067942b5b9eb0ecc4d42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b10028f24d0afd9109fe0f1db5eefb77') in 0.0162708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Scripts/LevelSwitch.cs
+  artifactKey: Guid(7c8243ed72ffa4e4d9bf0f91f7c54b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LevelSwitch.cs using Guid(7c8243ed72ffa4e4d9bf0f91f7c54b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93cec2fb757cb8075c0b816ae0368ac3') in 0.0024302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Door-Stone-Model-03.fbx
+  artifactKey: Guid(7ba2e918d3548e74d85b1d3d3d6ac1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Door-Stone-Model-03.fbx using Guid(7ba2e918d3548e74d85b1d3d3d6ac1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b2437599917384f77fcc26ff7a9a370') in 0.0379844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Liam/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '092f7974db3fb175701bdf9959c1e23b') in 0.0014788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Liam/Third Person Controller/Animations/Materials/Beta_Body_MAT.mat
+  artifactKey: Guid(34e2416e47da90f44a44c53426dd994b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Third Person Controller/Animations/Materials/Beta_Body_MAT.mat using Guid(34e2416e47da90f44a44c53426dd994b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12cc3f50cce2d6ce81ec362bb26d8c66') in 0.0151994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Liam/Audio/Audio Clips/room ambience.mp3
+  artifactKey: Guid(277cf994413f31243980eeb8b50e2d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Audio/Audio Clips/room ambience.mp3 using Guid(277cf994413f31243980eeb8b50e2d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d8e65f864b401c5f5e1573bdc75761d') in 0.073131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Liam/Third Person Controller/Player.prefab
+  artifactKey: Guid(b001cb61a0b189d4394e77fcb27043d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Third Person Controller/Player.prefab using Guid(b001cb61a0b189d4394e77fcb27043d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20be8096d9286a09ce910fe5d3bc8e95') in 0.0248309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Liam/Third Person Controller/Animations/Materials/Beta_Joints_MAT.mat
+  artifactKey: Guid(c15d781ca59a2ca498adb8964d59a73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Third Person Controller/Animations/Materials/Beta_Joints_MAT.mat using Guid(c15d781ca59a2ca498adb8964d59a73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a8ca65ee06a4d9322454678c2f759b1') in 0.0155289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Floor-Stone-Model-02.fbx
+  artifactKey: Guid(64cabf81a7e08cf4bb69fb6cb5a29f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Floor-Stone-Model-02.fbx using Guid(64cabf81a7e08cf4bb69fb6cb5a29f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f77367a29b006c42fa90350bc35d912a') in 0.0263074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Liam/Scenes
+  artifactKey: Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Scenes using Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd65b75f456837a3494a5e6e744543932') in 0.0009048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 483.292509 seconds.
+  path: Assets/Liam/Scenes/Assignment2.unity
+  artifactKey: Guid(b208aab5df47ee849963e9951f037a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Scenes/Assignment2.unity using Guid(b208aab5df47ee849963e9951f037a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56589f7cbed6a80f2a243616332d31a8') in 0.0022466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.237097 seconds.
+  path: Assets/Liam/Scenes/Liam.unity
+  artifactKey: Guid(c3727a9e16e82474f94f0313a7878034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Scenes/Liam.unity using Guid(c3727a9e16e82474f94f0313a7878034) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2963f9e80c58a081a710642cf6919a3') in 0.001301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.499100 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Corners/Corner-Stone (1).prefab
+  artifactKey: Guid(5ad9ed5263f46ab4dbf19b48295add63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Corners/Corner-Stone (1).prefab using Guid(5ad9ed5263f46ab4dbf19b48295add63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fe9592776f7074b84502ad6e8813103') in 0.0256667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-01.mat
+  artifactKey: Guid(b30dcab12d8cb64438630df58d94510d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-01.mat using Guid(b30dcab12d8cb64438630df58d94510d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ca3d5771bf7186f882461db53a8ddd1') in 0.0179659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Liam/Settings
+  artifactKey: Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Settings using Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4b47d252bc4e8d77fd6334abcf5e3e8') in 0.0012364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone
+  artifactKey: Guid(aeb80289b42df884e95032d0a2ab4ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone using Guid(aeb80289b42df884e95032d0a2ab4ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2b20c6f53642f29669a84548166efe0') in 0.000839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls
+  artifactKey: Guid(6aec68cbe30877f4898ad2937e198f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls using Guid(6aec68cbe30877f4898ad2937e198f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25e1151266262fa9370c73127597ec61') in 0.0018844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-05.mat
+  artifactKey: Guid(30f7732f3ee57554eb7ef25694ac7bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-05.mat using Guid(30f7732f3ee57554eb7ef25694ac7bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd354e7fa22b09299fc27b31fe99f07bc') in 0.0141194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Floor-Stone-Model-03.fbx
+  artifactKey: Guid(03cbc850a19aa0345b9554d1c90faa78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Floor-Stone-Model-03.fbx using Guid(03cbc850a19aa0345b9554d1c90faa78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60dd9fbb917abe01ccbde67b7dca2574') in 0.0301069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Corner-Stone-Model-03.fbx
+  artifactKey: Guid(c9a2f8ec850b892478e8fd57cc866047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Corner-Stone-Model-03.fbx using Guid(c9a2f8ec850b892478e8fd57cc866047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '955c7f988c5507e1c8a3c34bf1244a37') in 0.0316198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Door-Stone-Model-01.fbx
+  artifactKey: Guid(95376650c5dd3504690211d997e35f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Door-Stone-Model-01.fbx using Guid(95376650c5dd3504690211d997e35f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ac8d474f7ee274e4097b0c708e1e20e') in 0.0243513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Liam/Fantasy Skybox FREE/Readme.txt
+  artifactKey: Guid(53399a9960b4d94419f1b8fa47c146b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Fantasy Skybox FREE/Readme.txt using Guid(53399a9960b4d94419f1b8fa47c146b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b845c1b1ddf89e48381be818931e4bc') in 0.003583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-07.mat
+  artifactKey: Guid(4428709e021064748a4ade09197d9609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-07.mat using Guid(4428709e021064748a4ade09197d9609) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58f3f26165872aaed0831caa02108adf') in 0.016161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-08.mat
+  artifactKey: Guid(531ebf51a45f06748a01c51246b63597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-08.mat using Guid(531ebf51a45f06748a01c51246b63597) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b67ad84adc8fdaa571d73b62027cdd0f') in 0.0192204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Liam/Materials and Textures/Concrete/Materials
+  artifactKey: Guid(f3ef49af7b435ad46bd7b66d0651c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Materials and Textures/Concrete/Materials using Guid(f3ef49af7b435ad46bd7b66d0651c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6beb67e1f3afcc1173114acbb790f0c3') in 0.0012685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-07.mat
+  artifactKey: Guid(ac519ce1f0b9273469231f091560a86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-07.mat using Guid(ac519ce1f0b9273469231f091560a86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25e6f474abb39551a9e062ccde1b2169') in 0.0166169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Floors/Floor-Wood (1).prefab
+  artifactKey: Guid(2046beae207d6db4199c40c4d14f4141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Floors/Floor-Wood (1).prefab using Guid(2046beae207d6db4199c40c4d14f4141) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c22f6660aa25c388d9c541b983e20478') in 0.0156885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Liam/TileableBricksWall
+  artifactKey: Guid(1ee5fcd16a8a6eb4495cb5d43ba5ed66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/TileableBricksWall using Guid(1ee5fcd16a8a6eb4495cb5d43ba5ed66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ee424a11256560e2677dc8c7bc5083b') in 0.0007112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Demo Scenes/Asset Lineup Scene.unity
+  artifactKey: Guid(2a8115a97e64de04cb3bdf0460173e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Demo Scenes/Asset Lineup Scene.unity using Guid(2a8115a97e64de04cb3bdf0460173e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39fff42638a7f6e52586b391a3c54b48') in 0.000672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Door-Stone-Model-02.fbx
+  artifactKey: Guid(81ecf8888cf4a7d49b85a85bf47cbc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Door-Stone-Model-02.fbx using Guid(81ecf8888cf4a7d49b85a85bf47cbc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '672776523a31d2e8e3ba5827f662bfc3') in 0.0244945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Liam/ProBuilder Data/Default Material Palette.asset
+  artifactKey: Guid(57894e9e51c0b994ebe44c26eeca6d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/ProBuilder Data/Default Material Palette.asset using Guid(57894e9e51c0b994ebe44c26eeca6d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b88f0c277433a2735f18ae453cd208e') in 0.0062601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Corners/Corner-Stone (3).prefab
+  artifactKey: Guid(8dfc16c4f7cbe7b49ad9358af0123ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Corners/Corner-Stone (3).prefab using Guid(8dfc16c4f7cbe7b49ad9358af0123ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15b1483424e0d3013c6489dc4fea0919') in 0.0162615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Corner-Stone-Model-02.mat
+  artifactKey: Guid(ac40411b9455773439ac8c5675392892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Corner-Stone-Model-02.mat using Guid(ac40411b9455773439ac8c5675392892) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc5411b6a4e31f5356be8a38d6760315') in 0.0138559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-03.fbx
+  artifactKey: Guid(e1ff90def9a530248ab22c3a085eac63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-03.fbx using Guid(e1ff90def9a530248ab22c3a085eac63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '226b354304d62bc272a0f6cf8f7b535d') in 0.0288317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (12).prefab
+  artifactKey: Guid(fb59533c38f3c0f4ca418d60818b0fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (12).prefab using Guid(fb59533c38f3c0f4ca418d60818b0fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68a71ada20b9edf35ccc098a5858f4fe') in 0.0171243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Corners
+  artifactKey: Guid(b3708bbfa4afef243afa593cd1c19575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Corners using Guid(b3708bbfa4afef243afa593cd1c19575) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe6a9bbec80da5783f988e0763e9db39') in 0.0010245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (3).prefab
+  artifactKey: Guid(04e6a0d45eab6a24180f11ac74ab0e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (3).prefab using Guid(04e6a0d45eab6a24180f11ac74ab0e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fecc9432bdf7d04c363923c28af3ccb8') in 0.022353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Liam/Materials and Textures/door animation.anim
+  artifactKey: Guid(4d5e5c57544cdf0469553a09b34764bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Materials and Textures/door animation.anim using Guid(4d5e5c57544cdf0469553a09b34764bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3452cb09e871741279e015c880cb79fa') in 0.0034372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-01.mat
+  artifactKey: Guid(204b0ea5595393c4d950b931f84f64a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-01.mat using Guid(204b0ea5595393c4d950b931f84f64a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '501b44e54952748ed445328d8228db46') in 0.0203423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-09.mat
+  artifactKey: Guid(d2f1f4dfae73a07429b743c02246c9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-09.mat using Guid(d2f1f4dfae73a07429b743c02246c9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d1fd6c2f6716e7a267339085ad67852') in 0.0196657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Corners/Corner-Wood (3).prefab
+  artifactKey: Guid(6c4b071a6b12d0145af3632f1f43cd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Corners/Corner-Wood (3).prefab using Guid(6c4b071a6b12d0145af3632f1f43cd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ee61c7bea089b1ed0056f80ad69d3ca') in 0.0197183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (4).prefab
+  artifactKey: Guid(7b9c6a300ca94e84aa580ff42a8b8292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (4).prefab using Guid(7b9c6a300ca94e84aa580ff42a8b8292) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e31c9aaecaf406e2d5cd30bff294f1bc') in 0.0207687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Door-Wood-Model-03.mat
+  artifactKey: Guid(1ffecb36c5f325d4289432ab17cc12ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Door-Wood-Model-03.mat using Guid(1ffecb36c5f325d4289432ab17cc12ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f2a143390ed5b0fc4fa3eb1a2f9c554') in 0.0188759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Doors/Door-Stone (2).prefab
+  artifactKey: Guid(3b752154f36e7c04bb01888b707b959e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Doors/Door-Stone (2).prefab using Guid(3b752154f36e7c04bb01888b707b959e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cef7c1f31e496df8393702693e82cf44') in 0.0160247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials
+  artifactKey: Guid(3837870fba6fa704f94bd8129a3e3f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials using Guid(3837870fba6fa704f94bd8129a3e3f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8728c55784a61ed7f107054790251af3') in 0.0015326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (10).prefab
+  artifactKey: Guid(fdec2343e28e33541bc788a20ed6fa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (10).prefab using Guid(fdec2343e28e33541bc788a20ed6fa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3039309deed29dc03bce78b898989d5f') in 0.0236601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (8).prefab
+  artifactKey: Guid(85436259a02f98b46a04c868d4cfd2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (8).prefab using Guid(85436259a02f98b46a04c868d4cfd2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23cdbdeecb61a042b63165a8501ba113') in 0.0205622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (5).prefab
+  artifactKey: Guid(88c0dc4641e543d4a9bbecbdd5f11f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (5).prefab using Guid(88c0dc4641e543d4a9bbecbdd5f11f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f9d2232395e7365d1370cd9847639d4') in 0.0186152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Liam/ProBuilder Data
+  artifactKey: Guid(65a2dd94c3343f847b3f6bad81dbe98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/ProBuilder Data using Guid(65a2dd94c3343f847b3f6bad81dbe98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0137d5d1f95cb3a4fdfcb8937035289f') in 0.0012728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Door-Wood-Model-01.fbx
+  artifactKey: Guid(d1fea7d47c8f5144387ec2b290a8d67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Door-Wood-Model-01.fbx using Guid(d1fea7d47c8f5144387ec2b290a8d67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fe760d2dfd330f17e9fcd9e640c793f') in 0.0272811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-12.mat
+  artifactKey: Guid(db22b3bd37f6220479b2d443a523f0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-12.mat using Guid(db22b3bd37f6220479b2d443a523f0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58c1d6ff244dfbdcd2c8a138a634283c') in 0.0221822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Doors/Door-Wood (3).prefab
+  artifactKey: Guid(bc5f90d176dc12245ba608646eb5168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Doors/Door-Wood (3).prefab using Guid(bc5f90d176dc12245ba608646eb5168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b62cd0fd0e3d58fd4f330eb8c7d79cab') in 0.0201738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001803 seconds.
+  path: Assets/Liam/Audio/Audio Clips/thunder rumble normalized.aup3
+  artifactKey: Guid(267d1f31adcd2184fa093cbf676c37df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Audio/Audio Clips/thunder rumble normalized.aup3 using Guid(267d1f31adcd2184fa093cbf676c37df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89b0c8a266dc6276bc87aac07c373dba') in 0.002022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-03.mat
+  artifactKey: Guid(f38051be6a8ad8f4fb93e30ac60ba245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-03.mat using Guid(f38051be6a8ad8f4fb93e30ac60ba245) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71c9cf59fdc04ee7e85c9bac9b0275c3') in 0.0184886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-09.fbx
+  artifactKey: Guid(7d15d5e86b6abe149aae4a97839483bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-09.fbx using Guid(7d15d5e86b6abe149aae4a97839483bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8eef75c8133d1dd174e20dd1484184c2') in 0.0264567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Liam/Audio/Audio Clips/chime.wav
+  artifactKey: Guid(02ba903b793a40747bd43c64a74000dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Audio/Audio Clips/chime.wav using Guid(02ba903b793a40747bd43c64a74000dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50c2e48007cd678b02c5f95c95cfd53d') in 0.0181555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (10).prefab
+  artifactKey: Guid(011b6cd529bfaf543ad52857ad90de05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (10).prefab using Guid(011b6cd529bfaf543ad52857ad90de05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd38a463c9f99ce6d60b9b1324108ab6') in 0.0324312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Floor-Wood-Model-02.mat
+  artifactKey: Guid(b36f28aa57c7300419c58f3720d00952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Floor-Wood-Model-02.mat using Guid(b36f28aa57c7300419c58f3720d00952) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01cc589f4d8a3a2a1a8bb0f8b2e9ce6c') in 0.0159958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Demo Scenes/Demo Dungeons
+  artifactKey: Guid(6c3fc274d18911944a82eeec6064e601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Demo Scenes/Demo Dungeons using Guid(6c3fc274d18911944a82eeec6064e601) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5456e2fb8e369317ee19ee8fc5c36954') in 0.0012532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Corners/Corner-Wood (1).prefab
+  artifactKey: Guid(34aa8881937f6d34dae65bd3e4559d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Corners/Corner-Wood (1).prefab using Guid(34aa8881937f6d34dae65bd3e4559d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a28eb61be73b243dc84ffcb2d3dc430') in 0.0228883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-06.mat
+  artifactKey: Guid(b2f7b06625d016645882d7041377502a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-06.mat using Guid(b2f7b06625d016645882d7041377502a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea8c54cb0ed71c4cbdc6ade2b46c056f') in 0.0177359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-09.fbx
+  artifactKey: Guid(3e8a43558db0cac478d4d6d833479cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-09.fbx using Guid(3e8a43558db0cac478d4d6d833479cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b6c876908d785f50c64c614e5fe4bb8') in 0.022428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Demo Scenes/Demo DungeonsSettings.lighting
+  artifactKey: Guid(3d3a8e2133698d843adbea238156c222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Demo Scenes/Demo DungeonsSettings.lighting using Guid(3d3a8e2133698d843adbea238156c222) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a1f8cd7068da9242b3b853314e198a2') in 0.0236707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-07.fbx
+  artifactKey: Guid(145a3c9f161ea3e4cb5a0e3a7b878e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-07.fbx using Guid(145a3c9f161ea3e4cb5a0e3a7b878e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f655f28c39381e25e98bdc1ca703f5d1') in 0.0212404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-04.fbx
+  artifactKey: Guid(4530d001dac31db4e9b983bd62e2658a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-04.fbx using Guid(4530d001dac31db4e9b983bd62e2658a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b415b9e03998c777fc18d06a3dac43c1') in 0.0264726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Liam/Third Person Controller/Robot Kyle/Materials
+  artifactKey: Guid(24b040bf5a1e9994ab22b9a3b6bf60dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Third Person Controller/Robot Kyle/Materials using Guid(24b040bf5a1e9994ab22b9a3b6bf60dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '431f4e6aebb1e3242a4f68f3cdeb1fd3') in 0.0013561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-08.mat
+  artifactKey: Guid(d709285a8e45fcb44b3d0b8e0eb893ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-08.mat using Guid(d709285a8e45fcb44b3d0b8e0eb893ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f1eb7c59bc0559cbcc86d85f123be15') in 0.0154687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Doors
+  artifactKey: Guid(a05221b2fd181c54b879864a4503c60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Doors using Guid(a05221b2fd181c54b879864a4503c60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a8b2524eaa2b0745ba9d211b9f86d59') in 0.002292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-11.mat
+  artifactKey: Guid(d045384b4238cf64a90f3daefdacdff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-11.mat using Guid(d045384b4238cf64a90f3daefdacdff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6248328a3f7c128a768ad7d704b7e6f3') in 0.0240268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (12).prefab
+  artifactKey: Guid(a32c0d64e9a7a3844b9595b73654df6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (12).prefab using Guid(a32c0d64e9a7a3844b9595b73654df6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '397eb7e03c74b7ce3d09382af1bef843') in 0.027627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (9).prefab
+  artifactKey: Guid(ab81f7053ec51854a82c0f1f16fd6847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (9).prefab using Guid(ab81f7053ec51854a82c0f1f16fd6847) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6417fc577b408b79513ddc6b767fc463') in 0.0216988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-09.mat
+  artifactKey: Guid(f7a8c1022c77fff4790e0d707ccd91cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-09.mat using Guid(f7a8c1022c77fff4790e0d707ccd91cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9a0f07c9729728ba247188c14e4999a') in 0.0169359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Liam/Fantasy Skybox FREE
+  artifactKey: Guid(0a33f992e13add9438b6e744a7dad662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Fantasy Skybox FREE using Guid(0a33f992e13add9438b6e744a7dad662) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2eeb3c1bbd2df3c0c9adcf87832298f9') in 0.0013318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (1).prefab
+  artifactKey: Guid(e72f1a178c825f84bac03b6f867c7dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (1).prefab using Guid(e72f1a178c825f84bac03b6f867c7dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4917a074e3f0d30fd1354568af45095') in 0.0241294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Doors/Door-Stone (3).prefab
+  artifactKey: Guid(912331f82e3fac14da3fb42b2d2eceee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Doors/Door-Stone (3).prefab using Guid(912331f82e3fac14da3fb42b2d2eceee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cddfe6323278e07f750472e62cfff1b1') in 0.0257987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Corner-Stone-Model-02.fbx
+  artifactKey: Guid(08d12cc52cf95df4aad9e9ec0dc4c95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Corner-Stone-Model-02.fbx using Guid(08d12cc52cf95df4aad9e9ec0dc4c95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14f6f46194d4e98bf204122b54daa9c1') in 0.0310452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs
+  artifactKey: Guid(e4213956da99cf44c9dbc90e1cf857ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs using Guid(e4213956da99cf44c9dbc90e1cf857ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73af14dd78cdc6837445df19a29b9d6d') in 0.0013438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Liam/Third Person Controller/Robot Kyle/Model
+  artifactKey: Guid(d9683f905b0aec947bc7d5aad01b57e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Third Person Controller/Robot Kyle/Model using Guid(d9683f905b0aec947bc7d5aad01b57e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f52a8f2583a06bd718cd1580d71b0cc') in 0.001595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (9).prefab
+  artifactKey: Guid(05a0229e5b930744683bf9e247f3e363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (9).prefab using Guid(05a0229e5b930744683bf9e247f3e363) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c662f874340c1b43a8a1df690f66956') in 0.0233193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Corners/Corner-Wood (4).prefab
+  artifactKey: Guid(c4966d711f437fe44bbd7d3261a38732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Corners/Corner-Wood (4).prefab using Guid(c4966d711f437fe44bbd7d3261a38732) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4358b20ec23283e000d317aedf85d0b6') in 0.0208049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (3).prefab
+  artifactKey: Guid(1975565c63a428b42a68f4a9c3cd9c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (3).prefab using Guid(1975565c63a428b42a68f4a9c3cd9c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd762bfb86f3feedfa1c9784d3371035') in 0.0200424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Corners/Corner-Stone (4).prefab
+  artifactKey: Guid(dce4ab95edbbb124a827dc1c3c09ead5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Corners/Corner-Stone (4).prefab using Guid(dce4ab95edbbb124a827dc1c3c09ead5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e5740572a0e6e34495d7ce2161d8a00') in 0.0278322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-05.mat
+  artifactKey: Guid(8325361387834014a9ef33531464743c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-05.mat using Guid(8325361387834014a9ef33531464743c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4584e76525a6883700def825c242c9d') in 0.0250167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Floors
+  artifactKey: Guid(ed59fc8a832832c4eadfcfda09219fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Floors using Guid(ed59fc8a832832c4eadfcfda09219fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e1a09ecc030205912a34288ff2c7311') in 0.0011522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (6).prefab
+  artifactKey: Guid(0cf29fb7b25f2454cafc193efc74659c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (6).prefab using Guid(0cf29fb7b25f2454cafc193efc74659c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e42069bb5751156d9d32fe5cc9ad3da') in 0.0238095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models
+  artifactKey: Guid(e582ed4c24b728e40a93880b5b5a0659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models using Guid(e582ed4c24b728e40a93880b5b5a0659) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e518be70c106de34aede802c7cb52a9b') in 0.0014103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (11).prefab
+  artifactKey: Guid(307cc9eec417ffe429036fda0dfd8b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (11).prefab using Guid(307cc9eec417ffe429036fda0dfd8b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1944ee6ef419c0429d4f239d5eff62cd') in 0.035033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Door-Wood-Model-01.mat
+  artifactKey: Guid(549e14b0782f578449d1f6c4ab6094ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Door-Wood-Model-01.mat using Guid(549e14b0782f578449d1f6c4ab6094ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57e47a9fa1de4883f0b087d64cee8d93') in 0.0218552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Doors/Door-Stone (1).prefab
+  artifactKey: Guid(3026cfe035107be4eb17b0ed93596957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Doors/Door-Stone (1).prefab using Guid(3026cfe035107be4eb17b0ed93596957) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a161ca9a6517bf34e7b35545ffbf850') in 0.0201247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Floor-Wood-Model-02.fbx
+  artifactKey: Guid(e9befa4495beba840ad08ac68756820f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Floor-Wood-Model-02.fbx using Guid(e9befa4495beba840ad08ac68756820f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce25cac629630385e9ee162d95177920') in 0.0246684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Liam/Audio/Audio Clips
+  artifactKey: Guid(ed72c0c606dfa254da76d1d51d2cd0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Audio/Audio Clips using Guid(ed72c0c606dfa254da76d1d51d2cd0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1442dd8f9c941c185cf369f309ba349') in 0.0023348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-10.fbx
+  artifactKey: Guid(c5ebeadff40677f428f920862a3f1e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-10.fbx using Guid(c5ebeadff40677f428f920862a3f1e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '513dd3ce1d89a095b3b60dc8ee7126e9') in 0.0275774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Liam/Fantasy Skybox FREE/ReleaseNotes.txt
+  artifactKey: Guid(f4bb2358699d96a43b3bfb9dcd59213f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Fantasy Skybox FREE/ReleaseNotes.txt using Guid(f4bb2358699d96a43b3bfb9dcd59213f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a5116f07913e57b10d56e0f2206aa26') in 0.0040521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (5).prefab
+  artifactKey: Guid(25b1fa3957978c8458406dc7cd54fdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (5).prefab using Guid(25b1fa3957978c8458406dc7cd54fdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bec9503e488ef74bf9151e3198504500') in 0.0171686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Liam/Fantasy Skybox FREE/Cubemaps/Classic
+  artifactKey: Guid(69ee00d9176dabc4687615071b161c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Fantasy Skybox FREE/Cubemaps/Classic using Guid(69ee00d9176dabc4687615071b161c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99c4bf5c881f7210dee002e3045837b9') in 0.0010158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-06.fbx
+  artifactKey: Guid(0349dbd9ca24d5543b4671a183d08f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-06.fbx using Guid(0349dbd9ca24d5543b4671a183d08f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e83e21c66f299d4e78222e821881ac9') in 0.0353292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Floor-Stone-Model-04.fbx
+  artifactKey: Guid(d99d74b25e1ef324ba487ba59ad07cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Floor-Stone-Model-04.fbx using Guid(d99d74b25e1ef324ba487ba59ad07cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b99c9c88584a192143667022aa18cc7f') in 0.0270992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (4).prefab
+  artifactKey: Guid(e6bbaf2297b9038409733c2f1128003b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (4).prefab using Guid(e6bbaf2297b9038409733c2f1128003b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fc67a12983217084b3c3f8a775b767a') in 0.0240932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Doors/Door-Wood (2).prefab
+  artifactKey: Guid(d3301591cf1411b4d8850c063ec1b2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Doors/Door-Wood (2).prefab using Guid(d3301591cf1411b4d8850c063ec1b2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e08125231e174f1c4233644b2ef2efc') in 0.0216482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Liam/Third Person Controller/Animations/Materials
+  artifactKey: Guid(48ba4f40465d7284d80431639dd69f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Third Person Controller/Animations/Materials using Guid(48ba4f40465d7284d80431639dd69f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdc858bc0b54adebc2da89b97461526d') in 0.0014489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Demo Scenes/Demo Dungeons.unity
+  artifactKey: Guid(5d16060afb9b6a64e86da0304e3a615d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Demo Scenes/Demo Dungeons.unity using Guid(5d16060afb9b6a64e86da0304e3a615d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63c2cde9198db35ffc91cebbbc128bf4') in 0.0012063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Floor-Stone-Model-03.mat
+  artifactKey: Guid(907d88b92f7d1bf499be0995fc4c75bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Floor-Stone-Model-03.mat using Guid(907d88b92f7d1bf499be0995fc4c75bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5233f3de27ddfb109dfa05a351b5c0db') in 0.0197609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Corner-Wood-Model-04.fbx
+  artifactKey: Guid(ad296451297fb5041a5a13cc354c0bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Corner-Wood-Model-04.fbx using Guid(ad296451297fb5041a5a13cc354c0bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f18eafe242ad555af927fc24be383b6b') in 0.0272729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Corner-Wood-Model-01.fbx
+  artifactKey: Guid(63df4f3e5fe6f4f4f89ec3a5e087a491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Corner-Wood-Model-01.fbx using Guid(63df4f3e5fe6f4f4f89ec3a5e087a491) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3beff351a1dcbec8cff2d9b6766e556') in 0.0238254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Corner-Wood-Model-03.mat
+  artifactKey: Guid(024ec65dc7d742e4d87f866c034ff810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Corner-Wood-Model-03.mat using Guid(024ec65dc7d742e4d87f866c034ff810) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd9a008e8f7beec30c66d2be62660a0f') in 0.0165636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Floors/Floor-Stone (4).prefab
+  artifactKey: Guid(f6efb6824389eab4d8cb9a0858c38a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Floors/Floor-Stone (4).prefab using Guid(f6efb6824389eab4d8cb9a0858c38a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f39be9949a63858287ab290647658e9') in 0.0201622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-07.fbx
+  artifactKey: Guid(55bf89779428ca0408a0ac364f64acdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-07.fbx using Guid(55bf89779428ca0408a0ac364f64acdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '114afb65a5969b11e59ddc95f58bc98e') in 0.0203775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-08.fbx
+  artifactKey: Guid(f3ed6584d1386d24684fd8330fa2057f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-08.fbx using Guid(f3ed6584d1386d24684fd8330fa2057f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f309cd997c2f0a773c1bfa29ce87acc3') in 0.0275425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-02.mat
+  artifactKey: Guid(12c7faa25ab84cf47b63336a6f0eae56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Door-Stone-Model-02.mat using Guid(12c7faa25ab84cf47b63336a6f0eae56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2948eee187e6ab8768f9aadd96c5f95c') in 0.0135949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood
+  artifactKey: Guid(aed714d17647d9f4993bbdf312cfd07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood using Guid(aed714d17647d9f4993bbdf312cfd07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7947b1d4f7ac20b9d0e6c289e9228ee7') in 0.0011468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-06.fbx
+  artifactKey: Guid(6e47fb2c4bc7154499c144b3e215870d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-06.fbx using Guid(6e47fb2c4bc7154499c144b3e215870d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e8fd0276748a37ef34b3be6633cace8') in 0.0288498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-04.mat
+  artifactKey: Guid(566b1898345837d41a837826ac8f61d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-04.mat using Guid(566b1898345837d41a837826ac8f61d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd787ae813adc0ca815cd114dfcbc4da3') in 0.0166233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood
+  artifactKey: Guid(56f6d154b1380054b88468b9ba8e3a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood using Guid(56f6d154b1380054b88468b9ba8e3a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dd64bb9367f88673bbb0fb5db0c86cf') in 0.0011778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Doors/Door-Wood (1).prefab
+  artifactKey: Guid(e326efa3bf67ff04f9920dbd957aba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Doors/Door-Wood (1).prefab using Guid(e326efa3bf67ff04f9920dbd957aba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38f35ed5641e6302c4f511c598e1391f') in 0.0182538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Floors/Floor-Stone (3).prefab
+  artifactKey: Guid(2e3557303b0b5774aba8c8e4f245d3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Floors/Floor-Stone (3).prefab using Guid(2e3557303b0b5774aba8c8e4f245d3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '202116a1beb2c393c72c249fb7ea117b') in 0.0182556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Liam/Materials and Textures/Concrete
+  artifactKey: Guid(4ebab9458806d2944b93f59c773061ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Materials and Textures/Concrete using Guid(4ebab9458806d2944b93f59c773061ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b5508dde4c125820aa26145c85a841e') in 0.0012402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Door-Wood-Model-02.mat
+  artifactKey: Guid(5e9feb5a539d5454c818492db729ea31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Door-Wood-Model-02.mat using Guid(5e9feb5a539d5454c818492db729ea31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99bca6e1184ad201397920f1e3f3549d') in 0.0164574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Liam/Fantasy Skybox FREE/Cubemaps
+  artifactKey: Guid(b40198e48fec1db4ba2bdbb96a9e1e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Fantasy Skybox FREE/Cubemaps using Guid(b40198e48fec1db4ba2bdbb96a9e1e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91af974c140bea41a29524928b9b4c56') in 0.0012178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-10.mat
+  artifactKey: Guid(e7e59c9c966c6ba418317867239d89de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-10.mat using Guid(e7e59c9c966c6ba418317867239d89de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2030ba2ed42a801b0be92b21b3a35d8') in 0.0172012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Floor-Wood-Model-01.fbx
+  artifactKey: Guid(35b4e51cccb1aef4c97d8691e64bcdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Floor-Wood-Model-01.fbx using Guid(35b4e51cccb1aef4c97d8691e64bcdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9df08a87d1720b25ce97bf2ad8cb349f') in 0.0295009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Floor-Stone-Model-01.mat
+  artifactKey: Guid(36ccc1482a1cb234fa00f4bba66dae21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Floor-Stone-Model-01.mat using Guid(36ccc1482a1cb234fa00f4bba66dae21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd571a728f501f9941165519ce32aaf68') in 0.0200699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-04.fbx
+  artifactKey: Guid(f631627b7ea6bd94b84ea500530c87bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-04.fbx using Guid(f631627b7ea6bd94b84ea500530c87bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e282e67726bd308942403e102951248') in 0.0214352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (7).prefab
+  artifactKey: Guid(c3e4ce92e820a2341963e7998fdbf651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (7).prefab using Guid(c3e4ce92e820a2341963e7998fdbf651) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d55d13721c7e47535b6ed86fed44783') in 0.0192127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (11).prefab
+  artifactKey: Guid(cd2d9b8d851255a4998f9cab44e6d514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (11).prefab using Guid(cd2d9b8d851255a4998f9cab44e6d514) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d1a92eeefe64295706590699c032a2e') in 0.0185597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-12.fbx
+  artifactKey: Guid(27700bb08d98ab745b6b95ce72196aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-12.fbx using Guid(27700bb08d98ab745b6b95ce72196aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34cd633de7ec7bce579c5dfc10cee81e') in 0.0257383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-06.mat
+  artifactKey: Guid(b97ac9058d8efce46a1ce11971dd49bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-06.mat using Guid(b97ac9058d8efce46a1ce11971dd49bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f691af1a95f325c03b8c7a33eb0083cd') in 0.0154614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Liam/Third Person Controller/Robot Kyle/Textures
+  artifactKey: Guid(01816f00f4cbe1a4d8423e6ef6679b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Third Person Controller/Robot Kyle/Textures using Guid(01816f00f4cbe1a4d8423e6ef6679b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2989eb066e1e29f6f317510c5a452ab7') in 0.0010261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Corner-Stone-Model-01.fbx
+  artifactKey: Guid(413012ff581a37e48920be52d807f4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Corner-Stone-Model-01.fbx using Guid(413012ff581a37e48920be52d807f4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73a9fe68ceb3fd33e94070d12b4c5ff1') in 0.0195313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Corner-Stone-Model-03.mat
+  artifactKey: Guid(3f413147f079ccf4f9c492a01b0e39f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Corner-Stone-Model-03.mat using Guid(3f413147f079ccf4f9c492a01b0e39f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c9c336cb04ed20df1de05d4f7b17ac6') in 0.0150948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-05.fbx
+  artifactKey: Guid(6f775c39abfc0534cbcbb95e6d9bcc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-05.fbx using Guid(6f775c39abfc0534cbcbb95e6d9bcc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c71b1d098de2384b613900e8c2149f4') in 0.0183508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Corners/Corner-Wood (2).prefab
+  artifactKey: Guid(829a76e0ebbd48f449f45c6765f027f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Corners/Corner-Wood (2).prefab using Guid(829a76e0ebbd48f449f45c6765f027f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '163f8f3108eac86b414940d0f1b141d0') in 0.0154692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-03.mat
+  artifactKey: Guid(2161f28328ad88948a3b77d2aecd79bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-03.mat using Guid(2161f28328ad88948a3b77d2aecd79bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c093d87c09e8f5453ed9eefbec920bf4') in 0.0176337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (7).prefab
+  artifactKey: Guid(bb2119431d358ce419859bfad1efe79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (7).prefab using Guid(bb2119431d358ce419859bfad1efe79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24568ea5eb953d4aa160a1bf3b6b7e22') in 0.0256445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-03.fbx
+  artifactKey: Guid(94fa54c1e3460ec4daa350800b4d8f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-03.fbx using Guid(94fa54c1e3460ec4daa350800b4d8f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6772ac8980f6e84f84e175a734ffc7af') in 0.0215307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Corner-Wood-Model-02.mat
+  artifactKey: Guid(0fc3020a2505de74fab37954d521ed71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Corner-Wood-Model-02.mat using Guid(0fc3020a2505de74fab37954d521ed71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c5463cc53d2a8ba55ccb9eddc6fcecf') in 0.0165804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls
+  artifactKey: Guid(88efc33540c0ac84f9de8537e82275a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls using Guid(88efc33540c0ac84f9de8537e82275a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed8c76c2e501fb6dbfd76ca1b2f61e15') in 0.000997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors
+  artifactKey: Guid(ef316498a6347d343a0e3ba549f03ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors using Guid(ef316498a6347d343a0e3ba549f03ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26c6a26733864f120160ba5e5a2d0d63') in 0.0009344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Liam/Third Person Controller/Robot Kyle
+  artifactKey: Guid(388174a20767f3048a69c139effd0019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Third Person Controller/Robot Kyle using Guid(388174a20767f3048a69c139effd0019) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc803e67a27edacb238148d9077e72a1') in 0.0008442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-02.fbx
+  artifactKey: Guid(2f16e9f8b47f15443a3e5190d7cc3135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-02.fbx using Guid(2f16e9f8b47f15443a3e5190d7cc3135) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00258f3d2ba27262b25e4ce47516d58d') in 0.0195547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Demo Scenes
+  artifactKey: Guid(b1713ebdc75b45a4ba10a58b31351e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Demo Scenes using Guid(b1713ebdc75b45a4ba10a58b31351e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b167476aecd5fdca39d86fc13d089aa7') in 0.0009462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Liam/Third Person Controller/Animations
+  artifactKey: Guid(71e90ff20090f0f4fad45d37062f3994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Third Person Controller/Animations using Guid(71e90ff20090f0f4fad45d37062f3994) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '249db3b694afd2cdc1b08a0b463034bd') in 0.0011728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Doors
+  artifactKey: Guid(c9a5f1b25cceea344b271ae29a95cf05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Doors using Guid(c9a5f1b25cceea344b271ae29a95cf05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a6d6209a34de3841304d5f4f65c1da6') in 0.0012637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Corner-Stone-Model-01.mat
+  artifactKey: Guid(9ea8f35b013d57543844fb8784445267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Corner-Stone-Model-01.mat using Guid(9ea8f35b013d57543844fb8784445267) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f4effb187cb387f8bba01f7b532a377') in 0.0220902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone
+  artifactKey: Guid(3a844e439aab3b949946b51f233e51dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone using Guid(3a844e439aab3b949946b51f233e51dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dc602b9298fd7a8067cc25dcadb78ed') in 0.0008545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Door-Wood-Model-03.fbx
+  artifactKey: Guid(5bd2be986c1e9824c9fc2e7b28a930c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Door-Wood-Model-03.fbx using Guid(5bd2be986c1e9824c9fc2e7b28a930c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28fdf01a88e69496e08570a3ebffe362') in 0.0248595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (6).prefab
+  artifactKey: Guid(61f8389dfe13a1441b7a47fe06931bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (6).prefab using Guid(61f8389dfe13a1441b7a47fe06931bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b00505dd12eca979846825ef0d6bc9aa') in 0.015237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Demo Scenes/Asset Lineup SceneSettings.lighting
+  artifactKey: Guid(6760dd4fe1c00f545ae6c8235e50d4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Demo Scenes/Asset Lineup SceneSettings.lighting using Guid(6760dd4fe1c00f545ae6c8235e50d4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a47105125c590176671d8bd8d6414b9') in 0.0022413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Corners/Corner-Stone (2).prefab
+  artifactKey: Guid(74b669fe92fe9174ebae205152ac9e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Corners/Corner-Stone (2).prefab using Guid(74b669fe92fe9174ebae205152ac9e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0bd37a8fa8ec13479871a83c02be8a4') in 0.0154117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (1).prefab
+  artifactKey: Guid(0866de07a9e9b4a4ea72bedea81f3389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (1).prefab using Guid(0866de07a9e9b4a4ea72bedea81f3389) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77c444ed3e25d8ca40fe1e3566976f1e') in 0.0210536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Liam/Audio
+  artifactKey: Guid(197ef68e0ddac694fae91f41e75cd3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Audio using Guid(197ef68e0ddac694fae91f41e75cd3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17abfaa491a389fdbefcaedb9f4b9288') in 0.001178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Floor-Stone-Model-04.mat
+  artifactKey: Guid(3b751f6271dce7747ab89d83050d6315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Floor-Stone-Model-04.mat using Guid(3b751f6271dce7747ab89d83050d6315) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93dbf6eecc7340d05819c76b7066fc00') in 0.0143057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Corner-Wood-Model-02.fbx
+  artifactKey: Guid(748adb5b8f858f6468e2af9362da2150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Corner-Wood-Model-02.fbx using Guid(748adb5b8f858f6468e2af9362da2150) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2192c0b36df5d647237aa7c2a1932698') in 0.0204968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Liam/Materials and Textures/Cube.controller
+  artifactKey: Guid(34655481a263e604695ad2e52f05b321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Materials and Textures/Cube.controller using Guid(34655481a263e604695ad2e52f05b321) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The legacy Animation Clip "door animation" cannot be used in the State "door animation". Legacy AnimationClips are not allowed in Animator Controllers.
+ -> (artifact id: '75cb9e81623c740857ed3629ed970059') in 0.0022982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Floors/Floor-Stone (1).prefab
+  artifactKey: Guid(5c5270ce0258f074e9ec5251e4b0776e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Floors/Floor-Stone (1).prefab using Guid(5c5270ce0258f074e9ec5251e4b0776e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97a47118644335290f85982816e8adf2') in 0.0180348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Floor-Stone-Model-01.fbx
+  artifactKey: Guid(f82ce6fd18315eb44ad3a7799a799667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Floor-Stone-Model-01.fbx using Guid(f82ce6fd18315eb44ad3a7799a799667) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '504c93a0de5d89a991f2d25750f780de') in 0.0228452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (2).prefab
+  artifactKey: Guid(cce6101e8bd7c4c438018b97651df5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Walls/Wall-Stone (2).prefab using Guid(cce6101e8bd7c4c438018b97651df5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f212e24dc6ddb1fae2fb53bfc9d00baf') in 0.0210451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-02.fbx
+  artifactKey: Guid(bbc007129f2c6534c9e70e722e90499f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-02.fbx using Guid(bbc007129f2c6534c9e70e722e90499f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f801fc94cd79877a2baccda0ea8c96b') in 0.0302225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Corner-Wood-Model-03.fbx
+  artifactKey: Guid(4258197bb6e4954499326e662d928b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Corner-Wood-Model-03.fbx using Guid(4258197bb6e4954499326e662d928b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77e59efb32a56ed5f24a1ac151db6687') in 0.0241315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials
+  artifactKey: Guid(c3b2584f839cc8e48a34494a162a2556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials using Guid(c3b2584f839cc8e48a34494a162a2556) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97ecf8c9972ef59e5c2eadbe17d6d0cd') in 0.0010074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Liam/Third Person Controller
+  artifactKey: Guid(ae951d8b36c2ae044827dbf28f03958c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Third Person Controller using Guid(ae951d8b36c2ae044827dbf28f03958c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '777ec885dc10c6aa278c0ba179ebe882') in 0.0016567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-02.mat
+  artifactKey: Guid(3eb657daea95c1443acc4b868c8ac1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-02.mat using Guid(3eb657daea95c1443acc4b868c8ac1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '856c5439b4d3b27cdfc302b0c272a71e') in 0.021443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-04.mat
+  artifactKey: Guid(5d66cb4cf0d5ab54e8364c3f49894d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-04.mat using Guid(5d66cb4cf0d5ab54e8364c3f49894d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ac917246d5e0e438d8e04e7a5a59640') in 0.0206558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-02.mat
+  artifactKey: Guid(2bac18ecbe07be6478b5a06a0bd36a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-02.mat using Guid(2bac18ecbe07be6478b5a06a0bd36a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16fbc8daa68f5e58057262e721929e6d') in 0.0181537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Liam/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01_Moonless.mat
+  artifactKey: Guid(1065b432639a84123a07ea43fe5ba4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01_Moonless.mat using Guid(1065b432639a84123a07ea43fe5ba4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '223f886c2f7d1826b67cffa837a70050') in 0.0379727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Liam/Models and Prefabs
+  artifactKey: Guid(1e33cf277d4dfde4ea458588fc79572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs using Guid(1e33cf277d4dfde4ea458588fc79572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0179f8f1063f62f06748b24b4838d684') in 0.0011121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Demo Scenes/Demo Dungeons/LightingData.asset
+  artifactKey: Guid(57b63fdb1db92aa49b80bbb0dbb84c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Demo Scenes/Demo Dungeons/LightingData.asset using Guid(57b63fdb1db92aa49b80bbb0dbb84c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f243c3d281d69268e36032e9368228f3') in 0.0029428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Corner-Wood-Model-01.mat
+  artifactKey: Guid(c536d6c83c786874c99ede5429a81770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Corner-Wood-Model-01.mat using Guid(c536d6c83c786874c99ede5429a81770) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b15401b525b6cf3a758ed18e4e351f6f') in 0.0159338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Corners
+  artifactKey: Guid(1e16bd178761e4d40a0a175e88f8f2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Corners using Guid(1e16bd178761e4d40a0a175e88f8f2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38b345944365ffa62fe52e2500aa405d') in 0.0009992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Floors
+  artifactKey: Guid(f9c17a29f454b68408fcdc38250aca81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Floors using Guid(f9c17a29f454b68408fcdc38250aca81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e0aa4179fcf4e537c56aa820d62c8ab') in 0.0010808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Corner-Wood-Model-04.mat
+  artifactKey: Guid(da7f4587877a06f4bb0021fd666bdccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Corner-Wood-Model-04.mat using Guid(da7f4587877a06f4bb0021fd666bdccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff279a45e72a71426aed9b30c46f9f73') in 0.0143683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Floor-Wood-Model-01.mat
+  artifactKey: Guid(99a7f16ed8f78a7418373cbb4bf8aa04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/materials/Floor-Wood-Model-01.mat using Guid(99a7f16ed8f78a7418373cbb4bf8aa04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b720683f29c30aa98c247ef410d77895') in 0.0141412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Floors/Floor-Stone (2).prefab
+  artifactKey: Guid(bf6eae279b80dd743be4cb4fbc4b4334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Stone/Floors/Floor-Stone (2).prefab using Guid(bf6eae279b80dd743be4cb4fbc4b4334) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5f5396082d7a002df674a9d02a9c474') in 0.0225748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (8).prefab
+  artifactKey: Guid(33a04dd4d2bfd7c43bc362d02404c1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (8).prefab using Guid(33a04dd4d2bfd7c43bc362d02404c1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0bd7ebee7b6202a6ea72a3d2cdba725') in 0.0183283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Liam/TileableBricksWall/Materials
+  artifactKey: Guid(7de496faec7b60f49b611dbbbebc7260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/TileableBricksWall/Materials using Guid(7de496faec7b60f49b611dbbbebc7260) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b9b38d7f517359432c7c050099a6206') in 0.0010654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (2).prefab
+  artifactKey: Guid(1813c94b1a0c7b94da308ac04531370d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (2).prefab using Guid(1813c94b1a0c7b94da308ac04531370d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54058f13c116d8cd957564fd0e90ad39') in 0.0164836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-11.fbx
+  artifactKey: Guid(7d64f2d019c2b3144b083f3931cbb96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-11.fbx using Guid(7d64f2d019c2b3144b083f3931cbb96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c45f4903d4114508fcd58063646ff964') in 0.0236175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Floors/Floor-Wood (2).prefab
+  artifactKey: Guid(b5bbd85c42f75ab4e88a9575bc5b5040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Prefabs/Wood/Floors/Floor-Wood (2).prefab using Guid(b5bbd85c42f75ab4e88a9575bc5b5040) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3be4a35dfed04451a03d8f99f0e559f') in 0.0172216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-08.fbx
+  artifactKey: Guid(ade97d4dba32bff4b8ea966c3a421874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-08.fbx using Guid(ade97d4dba32bff4b8ea966c3a421874) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd363ba6015ea217e3c13d5b17c93c6dd') in 0.0264204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-05.fbx
+  artifactKey: Guid(ddb76fa9f72a2cf47859d4f8e4aa7694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-05.fbx using Guid(ddb76fa9f72a2cf47859d4f8e4aa7694) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95c367e5bf0eaef420161ee097b50204') in 0.0254029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Door-Wood-Model-02.fbx
+  artifactKey: Guid(f0e081e328e30854da83a08974ef6b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Door-Wood-Model-02.fbx using Guid(f0e081e328e30854da83a08974ef6b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac4def08440b0f76f7c6404e90327da9') in 0.0244169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-01.fbx
+  artifactKey: Guid(2902b228b51682e49b120efe22113a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Liam/Models and Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-01.fbx using Guid(2902b228b51682e49b120efe22113a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '198ce32b56ba07392ad476c6075b6c83') in 0.0249536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+

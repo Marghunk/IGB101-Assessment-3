@@ -1,5 +1,3 @@
-using System.Xml;
-using UnityEditor.Build.Content;
 using UnityEngine;
 
 public class LucasPickup : MonoBehaviour

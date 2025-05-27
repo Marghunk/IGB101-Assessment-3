@@ -1633,7 +1633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb0cd708c5cf3f84d8e1bd998ef41d33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevel: IGB101 Assignment 3 Lucas Scheiler
+  nextLevel: KodyIGB101Level
   m: {fileID: 0}
   activated: {r: 1, g: 0, b: 0, a: 0.06666667}
   deactivated: {r: 0.019607844, g: 1, b: 0, a: 0.06666667}

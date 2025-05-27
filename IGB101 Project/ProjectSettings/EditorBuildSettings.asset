@@ -20,5 +20,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Coen/Scenes/CoensScene.unity
     guid: 5be3b9d57ad79434a9a0b5d60466aeca
+  - enabled: 1
+    path: Assets/Kody/KodyIGB101Level/KodyIGB101Level.unity
+    guid: 7dd85e601f08d9844964e694d3da2872
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

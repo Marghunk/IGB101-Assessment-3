@@ -65,21 +65,29 @@
     <Compile Include="Assets\Coen\Scripts\Coen_LevelSwitch.cs" />
     <Compile Include="Assets\Scripts\LevelSwitch.cs" />
     <Compile Include="Assets\Coen\Scripts\Coen_SpinnyScript.cs" />
+    <Compile Include="Assets\Kody\Scripts\KodyDisplayAnimation.cs" />
     <Compile Include="Assets\Coen\Scripts\Coen_GameManager.cs" />
     <Compile Include="Assets\Coen\Scripts\Pickup.cs" />
     <Compile Include="Assets\Scripts\Pickups.cs" />
+    <Compile Include="Assets\Kody\Scripts\KodyGameManager.cs" />
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Coen\Scripts\Coen_PlayerMovement.cs" />
+    <Compile Include="Assets\Kody\Scripts\KodyLevelSwitch.cs" />
     <Compile Include="Assets\Scripts\LucasPickup.cs" />
+    <Compile Include="Assets\Kody\Scripts\KodyPickup.cs" />
     <Compile Include="Assets\Scripts\Liam_GameManager.cs" />
     <Compile Include="Assets\Lucas\Third Person Controller\LucasPlayerMovement.cs" />
     <Compile Include="Assets\Coen\Scripts\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\Kody\Scripts\KodyThirdPersonCamera.cs" />
+    <Compile Include="Assets\Kody\Scripts\KodyDoor.cs" />
     <Compile Include="Assets\Scripts\LucasDoorTest.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\LiamLevelSwitch.cs" />
+    <Compile Include="Assets\Kody\Scripts\KodyCameraMovement.cs" />
     <Compile Include="Assets\Lucas\Third Person Controller\LucasThirdPersonCamera.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\LucasCameraMovement.cs" />
+    <Compile Include="Assets\Kody\Scripts\KodyPlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

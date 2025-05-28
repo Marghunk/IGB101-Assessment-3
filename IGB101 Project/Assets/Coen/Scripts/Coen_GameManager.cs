@@ -17,6 +17,7 @@ public class Coen_GameManager : MonoBehaviour
     // Audio Proximity Logic
     public AudioSource[] audioSources;
     public float audioProximity = 5.0f;
+    public AudioSource pickupSound;
 
 
     void LevelCompleteCheck()
@@ -68,7 +69,7 @@ public class Coen_GameManager : MonoBehaviour
 
     private void Start()
     {
-        maxPickups = GameObject.FindObjectsByType<Pickup>(FindObjectsSortMode.None).Length;
+        maxPickups = GameObject.FindObjectsByType<Coen_Pickup>(FindObjectsSortMode.None).Length;
     }
     private void Update()
     {

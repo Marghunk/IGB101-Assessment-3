@@ -68,7 +68,7 @@
     <Compile Include="Assets\Coen\Scripts\Coen_SpinnyScript.cs" />
     <Compile Include="Assets\Kody\Scripts\KodyDisplayAnimation.cs" />
     <Compile Include="Assets\Coen\Scripts\Coen_GameManager.cs" />
-    <Compile Include="Assets\Coen\Scripts\Pickup.cs" />
+    <Compile Include="Assets\Coen\Scripts\Coen_PickupPickup.cs" />
     <Compile Include="Assets\Scripts\Pickups.cs" />
     <Compile Include="Assets\Kody\Scripts\KodyGameManager.cs" />
     <Compile Include="Assets\Scripts\CameraMovement.cs" />

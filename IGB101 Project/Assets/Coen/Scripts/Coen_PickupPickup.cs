@@ -1,9 +1,9 @@
 using UnityEngine;
 
-public class Pickup : MonoBehaviour
+public class Coen_Pickup : MonoBehaviour
 {
     Coen_GameManager gameManager;
-
+    
     private void Start()
     {
         gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<Coen_GameManager>();
@@ -15,6 +15,7 @@ public class Pickup : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             gameManager.currentPickups += 1;
+            gameManager.pickupSound.Play();
             Destroy(this.gameObject);
         }
     }
